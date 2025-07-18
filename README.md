@@ -1,1 +1,2 @@
-# verdi
+# VERDI
+building blocks
