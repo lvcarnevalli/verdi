@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VERDI</title>
+    <title>VERDI - Bot Pessoal</title>
     <style>
-        .verdi-body {
+        body {
             min-height: 100vh;
             margin: 0;
             display: flex;
             align-items: center;
             justify-content: center;
             background: #111216;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            line-height: 1.6;
+            padding: 20px;
+            box-sizing: border-box;
         }
         .verdi-container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            max-width: 800px;
+            text-align: center;
         }
         .verdi-title {
             color: #fff;
             font-size: 4rem;
-            font-family: Arial, Helvetica, sans-serif;
             letter-spacing: 0.2em;
             position: relative;
+            margin-bottom: 30px;
         }
         .verdi-subtitle {
             display: block;
@@ -33,15 +40,85 @@
             bottom: -2.2em;
             color: #fff;
             font-size: 1rem;
-            font-family: Arial, Helvetica, sans-serif;
             letter-spacing: 0.1em;
             white-space: nowrap;
         }
+        .verdi-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            text-align: left;
+        }
+        .verdi-section h2 {
+            color: #fff;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        .verdi-section p, .verdi-section ul {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .verdi-section a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .verdi-section a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .verdi-title {
+                font-size: 3rem;
+            }
+            .verdi-subtitle {
+                font-size: 0.8rem;
+                bottom: -1.8em;
+            }
+            .verdi-section h2 {
+                font-size: 1.5rem;
+            }
+            .verdi-section p {
+                font-size: 0.9rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .verdi-title {
+                font-size: 2rem;
+                letter-spacing: 0.1em;
+            }
+            .verdi-subtitle {
+                font-size: 0.7rem;
+                bottom: -1.5em;
+            }
+        }
     </style>
 </head>
-<body class="verdi-body">
+<body>
     <div class="verdi-container">
         <span class="verdi-title">VERDI<span class="verdi-subtitle">building blocks</span></span>
+
+        <div class="verdi-section">
+            <p>Eu sou o VERDI, seu bot pessoal dedicado a automatizar tarefas. Minha criação tem como objetivo principal simplificar e otimizar minhas atividades diárias, oferecendo uma ferramenta de automação para uso individual.</p>
+            <p>Fui projetado para ser uma ferramenta de apoio exclusivo para mim, sem foco em interação ou serviço para terceiros.</p>
+        </div>
+
+        <div class="verdi-section">
+            <h2>Política de Privacidade</h2>
+            <p>A sua privacidade é fundamental. Quero deixar claro que o VERDI não coleta, armazena, processa ou compartilha qualquer tipo de informação pessoal, dados de conversas, histórico de uso ou qualquer outro dado de usuário. Todas as interações comigo são efêmeras e ocorrem estritamente para o propósito para o qual fui programado, sem deixar rastros ou logs de dados pessoais.</p>
+            <p>Não há captação de dados para fins comerciais, analíticos ou de qualquer outra natureza. Minha operação é totalmente focada na funcionalidade interna e pessoal.</p>
+        </div>
+
+        <div class="verdi-section">
+            <h2>Termos de Uso</h2>
+            <p>O VERDI é desenvolvido e mantido para uso pessoal e privado. Não há permissão para uso comercial, redistribuição ou qualquer tipo de acesso por terceiros.</p>
+            <p>Ao interagir com este bot, você compreende e concorda com a ausência de coleta de dados e com a finalidade exclusiva de uso pessoal. Qualquer uso indevido ou fora dos propósitos programados não é incentivado e está fora da minha função.</p>
+        </div>
+
+        <div class="verdi-section">
+            <h2>Contato</h2>
+            <p>Para quaisquer dúvidas ou esclarecimentos sobre o VERDI, você pode entrar em contato através do meu perfil no GitHub: <a href="https://github.com/lvcarnevalli" target="_blank" rel="noopener noreferrer">lvcarnevalli</a>.</p>
+            <p>Você também pode consultar as <a href="https://business.whatsapp.com/policy" target="_blank" rel="noopener noreferrer">Políticas Empresariais do WhatsApp</a> para mais informações.</p>
+        </div>
     </div>
 </body>
 </html>
